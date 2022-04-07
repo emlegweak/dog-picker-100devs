@@ -1,0 +1,48 @@
+html{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(violet,teal);
+    height: 100vh;
+}
+header{
+    margin-bottom: 30px;
+    text-align: center;
+}
+select {
+    font-size: .75rem;
+}
+    
+.sectionContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10vw;
+}
+
+.column{
+    flex: 1;
+}
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 20%;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#dogName{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.column.left {
+    text-align:center;
+}
+
+.column.right {
+    line-height: 1.5rem;
+    list-style-image:url(doggo.png);
+}
